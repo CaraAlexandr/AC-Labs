@@ -1,3 +1,10 @@
+; ----------------------------------------------------------------------------------------
+; To assemble and run:
+;
+; nasm -f elf64 -o arithmetic_operations.o arithmetic_operations.asm&&ld -o arithmetic_operations arithmetic_operations.o&&./arithmetic_operations
+; ----------------------------------------------------------------------------------------
+
+
 SYS_EXIT  equ 1
 SYS_READ  equ 3
 SYS_WRITE equ 4

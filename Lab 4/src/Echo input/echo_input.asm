@@ -1,3 +1,10 @@
+; ----------------------------------------------------------------------------------------
+; To assemble and run:
+;
+; nasm -f elf64 -o echo_input.o echo_input.asm&&ld -o echo_input echo_input.o&&./echo_input
+; ----------------------------------------------------------------------------------------
+
+
 global _start
 
 section .data

@@ -19,3 +19,4 @@ _start:   mov       rax, 1                  ; system call for write
 
           section   .data
 message:  db        "Hello, World", 10      ; note the newline at the end
+
